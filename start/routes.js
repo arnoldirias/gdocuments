@@ -17,13 +17,13 @@ const Route = use('Route')
 
 var knex = require('knex')({
   client: 'mysql',
-  version: '5.6',
+  version: '5.1',
   connection: {
-    host: '127.0.0.1',
+    host: 'databases-auth.000webhost.com',
     port: '3306',
-    user:'gd',
+    user:'id12311837_gd',
     password: 'ouJmFfBnrkLObW3a',
-    database: 'gestiondedocumentos'
+    database: 'id12311837_gestiondedocumentos'
   }
 
 });
