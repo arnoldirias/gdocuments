@@ -33,7 +33,7 @@ Route.on('/').render('welcome')
 
 Route.get('/test/', () => 'HI' )
 
-/* ===================================================== */
+/* HOME===================================================== */
 Route.get('/home', async ({request, params}) => {
   return await knex.select().table('usuario')
 })
